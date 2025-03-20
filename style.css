@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+}
+h1{
+    background-color: rgb(222, 12, 134);
+    height: 30px;
+    width: 0px;
+    color: transparent;
+    
+}
+h1:hover{
+    height: 45px;
+    width: 850px;
+    transition: 1s;
+    color: black;
+}
+img{
+    margin-top: 20px;
+    border-radius: 100%;
+    margin-inline-start: 500px;
+    transform: rotate(0deg);
+    animation: spin 3s linear infinite;
+}
+@keyframes rotate360{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+img:hover{
+    
+    transition: 10s;
+    animation: spin 1s linear infinite;
+    transform: rotate(360deg);
+    rotate: 360deg;
+}
+marquee{
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+audio{
+     margin-top: 100px;
+     padding-right: 500px;
+     margin-inline-start: 500px;
+}
